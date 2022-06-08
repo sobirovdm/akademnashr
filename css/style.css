@@ -1,16 +1,36 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+.container {
+    width: 1100px;
+    margin: 0 auto;
+} */
+
 body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.5px;
     font-family: 'Roboto', 'Arial', sans-serif;
     font-weight: 400;
+    border-top: 5px solid #ff7500;
 }
+
+/* *:focus {
+    outline: 2px dotted #ff7500;
+    outline-offset: 3px;
+} */
 
 .primary-button {
     color: #fff;
     font-size: 13px;
     line-height: 15px;
     font-weight: 700;
+    padding: 12px 24px;
+    border-radius: 4px;
     text-decoration: none;
     background-color: #ff7500;
     transition: opacity 0.4s ease;
@@ -27,6 +47,8 @@ body {
 .orange-line {
     width: 80px;
     height: 3px;
+    margin-bottom: 24px;
+    border: 0;
     background-color: #ff7500;
 }
 
@@ -36,7 +58,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     background-color: #fff;
+    padding: 16px 170px;
 }
 
 .logo {
@@ -87,8 +111,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     color: #fff;
     background-color: #252420;
+    padding: 80px 170px;
 }
 
 .hero-content {
@@ -96,19 +122,28 @@ body {
 }
 
 .hero-heading {
+    margin-bottom: 24px;
     font-size: 40px;
     line-height: 1.2;
     font-family: 'Roboto Condensed', 'Arial', sans-serif;
 }
 
+.hero-text {
+    margin-bottom: 32px;
+}
 
 .hero-img {
     width: 510px;
     height: 510px;
     object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 24px 24px 0 0 rgba(255, 117, 0, 0.6);
 }
 
 /* FEATURES SECTION */
+.features {
+    padding: 210px 170px;
+}
 .features-heading {
     width: 440px;
     font-size: 72px;
@@ -131,6 +166,10 @@ body {
     height: 100px;
     border-radius: 50%;
     background-color: rgba(255, 117, 0, 0.2);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .feature-title {
@@ -144,7 +183,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
     color: #fff;
+    padding: 64px;
+    border-radius: 12px;
     background-color: #252420;
 }
 
@@ -170,6 +212,7 @@ body {
 
 /* SITE FOOTER */
 .site-footer {
+    padding: 55px 170px;
     background-color: #f8f8f8;
 }
 
@@ -199,6 +242,7 @@ body {
 
 .site-footer-divider {
     height: 2px;
+    border: 0;
     background-color: rgba(37, 36, 32, 0.5);
 }
 
