@@ -1,8 +1,17 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 400;
+}
+
 
 .primary-button {
     color: #fff;
     font-size: 13px;
-    line-height: 15px;;
+    line-height: 15px;
+    font-weight: 700;
     text-decoration: none;
     background-color: #ff7500;
     
@@ -47,14 +56,14 @@
 .hero-heading {
     font-size: 40px;
     line-height: 1.2;
-    letter-spacing: 0.5px;
+    font-family: 'Roboto Condensed', 'Arial', sans-serif;
 }
 
-.hero-text {
+/* .hero-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.5px;
-}
+} */
 
 .hero-img {
     width: 510px;
@@ -67,7 +76,7 @@
     width: 440px;
     font-size: 72px;
     line-height: 1.2;
-    letter-spacing: 0.5px;
+    font-family: 'Roboto Condensed', 'Arial', sans-serif;
 }
 
 .features-list {
@@ -89,14 +98,14 @@
 .feature-title {
     font-size: 24px;
     line-height: 1.2;
-    letter-spacing: 0.5px;
+    font-family: 'Roboto Condensed', 'Arial', sans-serif;
 }
 
-.feature-info {
+/* .feature-info {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.5px;
-}
+} */
 
 
 /* PROMO SECTION */
@@ -112,14 +121,14 @@
 .promo-heading {
     font-size: 40px;
     line-height: 48px;
-    letter-spacing: 0.5px;
+    font-family: 'Roboto Condensed', 'Arial', sans-serif;
 }
 
-.promo-text {
+/* .promo-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.5px;
-}
+} */
 
 .promo-highlight {
     color: #ff7500;
@@ -141,8 +150,8 @@
 }
 
 .site-footer-divider {
-    background-color: rgba(37, 36, 32, 0.5);
     height: 2px;
+    background-color: rgba(37, 36, 32, 0.5);
 }
 
 .site-footer-links {
@@ -150,9 +159,8 @@
 }
 
 .site-footer-links a {
-    font-size: 16px;
-    line-height: 19px;
     color: #252420;
+    line-height: 19px;
     text-decoration: none;
 }
 
