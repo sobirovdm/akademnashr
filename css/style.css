@@ -6,7 +6,6 @@ body {
     font-weight: 400;
 }
 
-
 .primary-button {
     color: #fff;
     font-size: 13px;
@@ -14,7 +13,15 @@ body {
     font-weight: 700;
     text-decoration: none;
     background-color: #ff7500;
-    
+    transition: opacity 0.4s ease;
+}
+
+.primary-button:hover {
+    opacity: 0.8;
+}
+
+.primary-button:active {
+    opacity: 0.6;
 }
 
 .orange-line {
@@ -22,6 +29,7 @@ body {
     height: 3px;
     background-color: #ff7500;
 }
+
 
 /* SITE HEADER */
 .site-header {
@@ -31,7 +39,19 @@ body {
     background-color: #fff;
 }
 
-.site-header-right {
+.logo {
+    transition: opacity 0.4s ease;
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+.logo:active {
+    opacity: 0.6;
+}
+
+.site-header-actions {
     display: flex;
     align-items: center;
 }
@@ -42,7 +62,7 @@ body {
     list-style: none;    
 }
 
-.sitenav-item a {
+.sitenav-link {
     font-size: 13px;
     line-height: 15px;
     font-weight: 500;
@@ -50,6 +70,16 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     color: #000;
+    transition: color 0.4s ease,
+        opacity 0.4s ease;
+}
+
+.sitenav-link:hover {
+    color: #ff7500;
+}
+
+.sitenav-link:active {
+    opacity: 0.6;
 }
 
 /* HERO SECTION */
@@ -149,8 +179,22 @@ body {
     justify-content: space-between;
 }
 
-.site-footer-list {
+.site-footer-socials {
     display: flex;
+}
+
+.site-footer-socials a {
+    color: #252420;
+    text-decoration: none;
+    transition: opacity 0.4s ease, color 0.4s ease;
+}
+
+.site-footer-socials a:hover {
+    color: #ff7500;
+}
+
+.site-footer-socials a:active {
+    opacity: 0.6;
 }
 
 .site-footer-divider {
@@ -175,5 +219,13 @@ body {
 .site-footer-links a {
     color: #252420;
     text-decoration: none;
+    transition: color 0.4s ease, opacity 0.4s ease;
 }
 
+.site-footer-links a:hover {
+    color: #ff7500;
+}
+
+.site-footer-links a:active {
+    opacity: 0.6;
+}
