@@ -1,0 +1,149 @@
+
+.primary-button {
+    color: #fff;
+    font-size: 13px;
+    line-height: 15px;;
+    text-decoration: none;
+    background-color: #ff7500;
+    
+}
+
+.orange-line {
+    width: 80px;
+    height: 3px;
+    background-color: #ff7500;
+}
+.site-header {
+    background-color: #fff;
+}
+
+.sitenav-list {
+    list-style: none;    
+}
+
+.sitenav-item a {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.hero {
+    color: #fff;
+    background-color: #252420;
+}
+
+.hero-content {
+    width: 390px;
+}
+
+.hero-heading {
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+
+.hero-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.hero-img {
+    width: 510px;
+    height: 510px;
+    object-fit: cover;
+}
+
+.features-heading {
+    width: 440px;
+    font-size: 72px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+
+.features-list {
+    list-style: none;
+}
+
+.feature {
+    width: 340px;
+}
+
+.feature-icon-wrapper {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(255, 117, 0, 0.2);
+}
+
+.feature-title {
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+
+.feature-info {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.promo {
+    color: #fff;
+    background-color: #252420;
+}
+
+.promo-content {
+    width: 440px;
+}
+
+.promo-heading {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+}
+
+.promo-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.promo-highlight {
+    color: #ff7500;
+}
+
+.promo-img {
+    width: 440px;
+    height: 440px;
+    object-fit: cover;
+}
+
+.site-footer {
+    background-color: #f8f8f8;
+}
+
+.site-footer ul {
+    list-style: none;
+}
+
+.site-footer-divider {
+    background-color: rgba(37, 36, 32, 0.5);
+    height: 2px;
+}
+
+.site-footer-links {
+    width: 224px;
+}
+
+.site-footer-links a {
+    font-size: 16px;
+    line-height: 19px;
+    color: #252420;
+    text-decoration: none;
+}
+
