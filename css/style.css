@@ -25,18 +25,27 @@ body {
 
 /* SITE HEADER */
 .site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #fff;
+}
+
+.site-header-right {
+    display: flex;
+    align-items: center;
 }
 
 /* SITENAV */
 .sitenav-list {
+    display: flex;
     list-style: none;    
 }
 
 .sitenav-item a {
     font-size: 13px;
-    font-weight: 500;
     line-height: 15px;
+    font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
@@ -45,6 +54,9 @@ body {
 
 /* HERO SECTION */
 .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     color: #fff;
     background-color: #252420;
 }
@@ -59,11 +71,6 @@ body {
     font-family: 'Roboto Condensed', 'Arial', sans-serif;
 }
 
-/* .hero-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.5px;
-} */
 
 .hero-img {
     width: 510px;
@@ -80,6 +87,7 @@ body {
 }
 
 .features-list {
+    display: flex;
     list-style: none;
 }
 
@@ -101,15 +109,11 @@ body {
     font-family: 'Roboto Condensed', 'Arial', sans-serif;
 }
 
-/* .feature-info {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.5px;
-} */
-
-
 /* PROMO SECTION */
 .promo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     color: #fff;
     background-color: #252420;
 }
@@ -120,15 +124,9 @@ body {
 
 .promo-heading {
     font-size: 40px;
-    line-height: 48px;
+    line-height: 1.2;
     font-family: 'Roboto Condensed', 'Arial', sans-serif;
 }
-
-/* .promo-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.5px;
-} */
 
 .promo-highlight {
     color: #ff7500;
@@ -145,8 +143,14 @@ body {
     background-color: #f8f8f8;
 }
 
-.site-footer ul {
-    list-style: none;
+.site-footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-footer-list {
+    display: flex;
 }
 
 .site-footer-divider {
@@ -154,13 +158,22 @@ body {
     background-color: rgba(37, 36, 32, 0.5);
 }
 
+.site-footer ul {
+    list-style: none;
+}
+
+.site-footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
 .site-footer-links {
     width: 224px;
+    line-height: 19px;
 }
 
 .site-footer-links a {
     color: #252420;
-    line-height: 19px;
     text-decoration: none;
 }
 
