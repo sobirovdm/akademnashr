@@ -1,0 +1,30 @@
+.promo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    color: #fff;
+    padding: 64px;
+    border-radius: 12px;
+    background-color: #252420;
+}
+
+.promo-content {
+    width: 440px;
+}
+
+.promo-heading {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Roboto Condensed', 'Arial', sans-serif;
+}
+
+.promo-highlight {
+    color: #ff7500;
+}
+
+.promo-img {
+    width: 440px;
+    height: 440px;
+    object-fit: cover;
+}

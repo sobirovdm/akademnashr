@@ -1,0 +1,36 @@
+.features {
+    padding: 210px 170px;
+}
+.features-heading {
+    width: 440px;
+    font-size: 72px;
+    line-height: 1.2;
+    font-family: 'Roboto Condensed', 'Arial', sans-serif;
+}
+
+.features-list {
+    display: flex;
+    list-style: none;
+}
+
+/* FEATURE */
+.feature {
+    width: 340px;
+}
+
+.feature-icon-wrapper {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(255, 117, 0, 0.2);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-title {
+    font-size: 24px;
+    line-height: 1.2;
+    font-family: 'Roboto Condensed', 'Arial', sans-serif;
+}

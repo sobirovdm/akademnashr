@@ -1,0 +1,54 @@
+/* SITE HEADER */
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 16px 170px;
+    background-color: #fff;
+}
+
+.logo {
+    transition: opacity 0.4s ease;
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+.logo:active {
+    opacity: 0.6;
+}
+
+.site-header-actions {
+    display: flex;
+    align-items: center;
+}
+/* /SITE HEADER */
+
+/* SITENAV */
+.sitenav-list {
+    display: flex;
+    list-style: none;    
+}
+
+.sitenav-link {
+    color: #000;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.4s ease,
+        opacity 0.4s ease;
+}
+
+.sitenav-link:hover {
+    color: #ff7500;
+}
+
+.sitenav-link:active {
+    opacity: 0.6;
+}
+/* /SITENAV */
