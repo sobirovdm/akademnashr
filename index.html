@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="uz">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akademnashr</title>
 
-    <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <!-- FONTS -->
+    <link rel="stylesheet" href="css/fonts.css">
 
     <!-- STYLES -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/features.css">
+    <link rel="stylesheet" href="css/promo.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-    <!-- SITE HEADER -->
+    <!-- CONTAINER -->
     <div class="container">
+        <!-- SITE HEADER -->
         <header class="site-header">
             <a class="logo" href="index.html">
                 <img src="./img/logo.svg" alt="Sayt logosi" width="227" height="60">
             </a>
+
             <div class="site-header-actions">
                 <!-- SITENAV -->
                 <nav class="sitenav">
@@ -31,25 +39,37 @@
                         <li class="sitenav-item"><a class="sitenav-link" href="contact.html">Kontaktlar</a></li>
                     </ul>
                 </nav>
-                <a class="sitenav-button primary-button" href="#">Ro’yxatdan o’tish</a>
+                <!-- /SITENAV -->
+
+                <a class="primary-button" href="#">Ro’yxatdan o’tish</a>
             </div>
         </header>
+        <!-- /SITE HEADER -->
+
         <!-- MAIN SECTION -->
         <main class="main">
             <!-- HERO SECTION-->
             <section class="hero">
                 <div class="hero-content">
                     <hr class="orange-line">
+
                     <h2 class="hero-heading">Pythonda dasturlash asoslari</h2>
+
                     <p class="hero-text">Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma. Kitobning har bir bo‘limi uchun maxsus video darslar yozilgan bo‘lib, ularga kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.</p>
+
                     <a class="primary-button" href="#">Buyurtma berish</a>
                 </div>
+
                 <img class="hero-img" src="img/python-book.jpg" alt="Pythonda dasturlash asoslari kitobi" width="510" height="510" srcset="img/python-book.jpg 1x, img/python-book@2x.jpg 2x">
             </section>
+            <!-- /HERO SECTION-->
+
             <!-- FEATURES SECTION-->
             <section class="features">
                 <hr class="orange-line">
+
                 <h2 class="features-heading">Nega aynan Akademnashr?</h2>
+
                 <ul class="features-list">
                     <li class="feature">
                         <div class="feature-icon-wrapper">
@@ -58,6 +78,7 @@
                         <h3 class="feature-title">Oson buyurtma qilish</h3>
                         <p class="feature-info">Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.</p>
                     </li>
+
                     <li class="feature">
                         <div class="feature-icon-wrapper">
                             <img class="feature-icon" src="img/icons/icon-sparkles.svg" alt="" width="56" height="56">
@@ -65,6 +86,7 @@
                         <h3 class="feature-title">Eng sara kitoblar</h3>
                         <p class="feature-info">Trenddagi eng ommabop, turli auditoriyalarga mo’ljallangan har xil janrdagi kitoblarni topa olasiz.</p>
                     </li>
+
                     <li class="feature">
                         <div class="feature-icon-wrapper">
                             <img class="feature-icon" src="img/icons/icon-lightning-bolt.svg" alt="" width="56" height="56">
@@ -74,6 +96,7 @@
                     </li>
                 </ul>
             </section>
+            <!-- /FEATURES SECTION-->
         
             <!-- PROMO SECTION -->
             <section class="promo">
@@ -85,7 +108,9 @@
                 </div>
                 <img class="promo-img" src="img/sale-img.jpg" alt="Ustma-ust taxlanib turgan kitoblar to'plami" width="440" height="440" srcset="img/sale-img.jpg 1x, img/sale-img@2x.jpg 2x">
             </section>
+            <!-- /PROMO SECTION -->
         </main>
+        <!-- /MAIN SECTION -->
         
         <!-- SITE FOOTER -->
         <footer class="site-footer">
@@ -147,7 +172,10 @@
                 </ul>
             </div>
         </footer>
+        <!-- /SITE FOOTER -->
     </div>
+    <!-- /CONTAINER -->
 
 </body>
+
 </html>
