@@ -1,12 +1,15 @@
 /* SITE HEADER */
 .site-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
     padding-top: 16px;
     padding-bottom: 16px;
     background-color: #fff;
+    border-top: 5px solid #ff7500;
+}
+
+.site-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .site-header-actions {

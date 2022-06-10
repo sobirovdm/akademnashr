@@ -1,12 +1,14 @@
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
     color: #fff;
     background-color: #252420;
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .hero-content {
