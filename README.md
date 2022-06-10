@@ -1,3 +1,5 @@
 # Promo site Akademnashr
 
-"Mohirdev.uz" platformasidagi "Front end dasturlash asoslari" kursi asosida, HTML va CSS yordamida tuzilgan sayt.
+A site created using HTML and CSS, based on the course "Frontend dasturlash asoslari" on the platform "Mohirdev.uz".
+
+Click [here](https://sdm-akademnashr.netlify.app) for the live demo.
