@@ -22,6 +22,7 @@
 
 }
 .site-footer-socials a {
+    display: block;
     color: #252420;
     text-decoration: none;
     transition: opacity 0.4s ease, color 0.4s ease;
@@ -33,6 +34,10 @@
 
 .site-footer-socials a:active {
     opacity: 0.6;
+}
+
+.site-footer-socials svg {
+    display: block;
 }
 
 .site-footer-divider {

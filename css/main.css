@@ -5,12 +5,6 @@
     box-sizing: border-box;
 }
 
-/* 
-*:focus {
-    outline: 2px dotted #ff7500;
-    outline-offset: 3px;
-} */
-
 body {
     font-family: 'Roboto', 'Arial', sans-serif;
     font-style: normal;
@@ -30,6 +24,21 @@ body {
     margin: 0 auto;
 } */
 
+.logo {
+    transition: opacity 0.4s ease;
+}
+
+.logo img {
+    display: block;
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+.logo:active {
+    opacity: 0.6;
+}
 
 .primary-button {
     display: inline-block;
@@ -58,3 +67,9 @@ body {
     margin-bottom: 24px;
     background-color: #ff7500;
 }
+
+*:focus {
+    outline: 2px dotted #ff7500;
+    outline-offset: 3px;
+}
+
