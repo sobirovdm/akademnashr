@@ -4,7 +4,10 @@
     justify-content: space-between;
     
     color: #fff;
-    padding: 64px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    margin-top: 120px;
+    margin-bottom: 160px;
     border-radius: 12px;
     background-color: #252420;
 }
@@ -14,9 +17,18 @@
 }
 
 .promo-heading {
+    margin-bottom: 24px;
     font-size: 40px;
     line-height: 1.2;
     font-family: 'Roboto Condensed', 'Arial', sans-serif;
+}
+
+.promo-text-wrapper {
+    margin-bottom: 24px;
+}
+
+.promo-text:not(:last-child) {
+    margin-bottom: 12px;
 }
 
 .promo-highlight {

@@ -4,7 +4,8 @@
     align-items: center;
     justify-content: space-between;
 
-    padding: 16px 170px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     background-color: #fff;
 }
 
@@ -29,7 +30,13 @@
 /* SITENAV */
 .sitenav-list {
     display: flex;
-    list-style: none;    
+    list-style: none;
+    
+    margin-right: 32px;
+}
+
+.sitenav-item:not(:last-child) {
+    margin-right: 32px;
 }
 
 .sitenav-link {
